@@ -1,0 +1,66 @@
+working-directory = home
+confirm-close-surface = false
+quit-after-last-window-closed = false
+shell-integration-features = no-title
+scrollback-limit = 4294967295
+bell-features = no-system,no-audio,no-attention,no-title,no-border
+
+window-show-tab-bar = always
+window-theme = dark
+
+background-blur = true
+bold-color = e6e6e6
+background = #111111
+foreground = #e6e6e6
+selection-background = #44475a
+selection-foreground = #ffffff
+cursor-color = #bbbbbb
+cursor-text = ffffff
+cursor-style = bar
+
+palette = 0=000000
+palette = 1=ff5555
+palette = 2=30d158
+palette = 3=#FFFFFF
+palette = 4=0a84ff
+palette = 5=ff79c6
+palette = 6=64d2ff
+palette = 7=ffffff
+palette = 8=555555
+palette = 9=ff5555
+palette = 10=30d158
+palette = 11=ffcc00
+palette = 12=0a84ff
+palette = 13=ff79c6
+palette = 14=64d2fa
+palette = 15=ffffff
+
+font-size = 12
+font-family = Monaco
+
+keybind = super+left=previous_tab
+keybind = super+right=next_tab
+keybind = alt+backspace=text:\x1b\x7f
+keybind = alt+left=esc:b
+keybind = super+left=text:\x01
+keybind = delete=text:\x04
+keybind = alt+delete=esc:d
+
+keybind = cmd+1=unbind
+keybind = cmd+2=unbind
+keybind = cmd+3=unbind
+keybind = cmd+4=unbind
+keybind = cmd+5=unbind
+keybind = cmd+6=unbind
+keybind = cmd+7=unbind
+keybind = cmd+8=unbind
+
+mouse-reporting = true
+
+macos-icon-frame = chrome
+macos-icon-ghost-color = #000000
+macos-icon-screen-color = #F40035
+macos-titlebar-style = sidebar
+macos-titlebar-new-tab-button = visible
+
+resize-overlay = never
